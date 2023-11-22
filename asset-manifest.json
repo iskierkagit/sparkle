@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sparkle/static/css/main.a48a5398.css",
+    "main.js": "/sparkle/static/js/main.b6c789b2.js",
+    "static/js/787.1a09a372.chunk.js": "/sparkle/static/js/787.1a09a372.chunk.js",
+    "static/media/sand_2.mp4": "/sparkle/static/media/sand_2.95fc2f57d82c8eeebae7.mp4",
+    "index.html": "/sparkle/index.html",
+    "main.a48a5398.css.map": "/sparkle/static/css/main.a48a5398.css.map",
+    "main.b6c789b2.js.map": "/sparkle/static/js/main.b6c789b2.js.map",
+    "787.1a09a372.chunk.js.map": "/sparkle/static/js/787.1a09a372.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a48a5398.css",
+    "static/js/main.b6c789b2.js"
+  ]
+}
