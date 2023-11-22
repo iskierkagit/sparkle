@@ -19,7 +19,6 @@ import Actions from './Components/Pages/Actions'
 import CookieConsent from './Components/CookieConsent';
 import { useCookies } from "react-cookie";
 
-
 const App = () => {
   const [cookies] = useCookies(["cookieConsent"]);
 
