@@ -5,7 +5,7 @@ const FirstSteps = () => {
   return (
     <div class="parents-flex-container">     
       <div class="parents-flex-child-image image-container">
-        <LazyLoadImage className='image' src={'2.jpg'}/>
+        <LazyLoadImage className='image' src={require("../../../Assets/img/1.jpg")}/>
       </div>  
       <div class="parents-flex-child">
         <h3>Pierwsze kroki</h3>

@@ -68,7 +68,7 @@ function Navbar() {
               Działania
             </Link>
           </li>
-          <li className='nav-item'>
+          {/*<li className='nav-item'>
             <Link
               to='/galery'
               className='nav-links'
@@ -76,7 +76,7 @@ function Navbar() {
             >
               Galeria
             </Link>
-          </li>
+          </li>*/}
           <li className='nav-item'>
             <Link
               to='/contact'

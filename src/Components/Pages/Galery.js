@@ -7,19 +7,19 @@ const Gallery = () => {
     <div>
       <Carousel cols={3} rows={1} gap={5} loop>
         <Carousel.Item>
-          <img width="100%" src="/2.jpg" />
+          <img width="100%" src={require("../../Assets/img/1.jpg")} />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/3.jpg" />
+          <img width="100%" src={require("../../Assets/img/2.jpg")} />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/4.jpg" />
+          <img width="100%" src={require("../../Assets/img/3.jpg")} />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/5.jpg" />
+          <img width="100%" src={require("../../Assets/img/4.jpg")} />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" src="/6.jpg" />
+          <img width="100%" src={require("../../Assets/img/5.jpg")} />
         </Carousel.Item>
       </Carousel>
       <video src={VideoBg} autoPlay loop muted/>

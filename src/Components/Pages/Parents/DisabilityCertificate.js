@@ -18,7 +18,7 @@ const DisabilityCertificate = () => {
         </span>
       </div>  
       <div class="parents-flex-child-image image-container">
-        <LazyLoadImage className='image' src={'3.jpg'}/>
+        <LazyLoadImage className='image' src={require("../../../Assets/img/2.jpg")}/>
       </div>
     </div>
   );

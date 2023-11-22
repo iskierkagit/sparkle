@@ -5,7 +5,7 @@ const Rehabilitation = () => {
   return (
     <div class="parents-flex-container">
       <div class="parents-flex-child-image image-container">
-        <LazyLoadImage className='image' src={'5.jpg'}/>
+        <LazyLoadImage className='image' src={require("../../../Assets/img/5.jpg")}/>
       </div>  
       <div class="parents-flex-child">
         <h3>Rehabilitacja</h3>

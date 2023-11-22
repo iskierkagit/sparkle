@@ -19,7 +19,7 @@ const ProLife = () => {
         </span>
       </div>  
       <div class="parents-flex-child-image image-container">
-        <LazyLoadImage className='image' src={'6.jpg'}/>
+        <LazyLoadImage className='image' src={require("../../../Assets/img/4.jpg")}/>
       </div>
     </div>
   );

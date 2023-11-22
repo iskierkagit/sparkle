@@ -5,7 +5,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const EarlySupport = () => {
   return (
     <div class="parents-float-container">
-        <LazyLoadImage className='image' src={'4.jpg'}/>
+        <LazyLoadImage className='image' src={require("../../../Assets/img/3.jpg")}/>
         <div className='parents-float-text'>
           <h3>Wczesne wspomaganie rozwoju</h3>
           <span>
