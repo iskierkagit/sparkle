@@ -1,0 +1,91 @@
+.flex-container {
+    display: flex;
+    height: calc(100%-6rem);
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.flex-child {
+    flex: 1;
+    border-radius: 7px;
+}  
+
+.flex-child:first-child {
+    margin-right: 30px;
+    background: linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(162, 162, 162) 100%);
+} 
+
+.flex-child .map-frame {
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 960px) {
+    .flex-container {
+        display: grid;
+        height: auto;
+    }
+  
+    .flex-child:first-child {
+        margin-right: 0px;
+        min-width: 230px;
+        background: linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(162, 162, 162) 100%);
+        
+    }
+
+    .flex-child .map-frame {
+        display: none;
+    }
+  }
+
+.flex-child .header{
+    width: 70%;
+}
+
+.flex-child .header h3{
+    margin: 5px;   
+}
+
+.flex-child .body{
+    padding-top: 30px;
+}
+
+.flex-child .body h3{
+    margin: 5px;   
+}
+
+.social-container {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-4px);
+}
+
+a.youtube {
+    color: #eb3223;
+}
+  
+a.facebook {
+color: #4968ad;
+}
+
+a.gmail {
+    color: #ff9b3d;
+}
+
+a.location{
+    color: rgb(230, 72, 44);
+}
+
+
+
+
+

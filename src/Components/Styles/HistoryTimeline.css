@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd;
+  }
+
+.vertical-timeline-element--work .vertical-timeline-element-date{
+    width: auto!important;
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (max-width: 1170px) {
+    .vertical-timeline-element--work .vertical-timeline-element-date{
+        width: auto;
+    }
+}

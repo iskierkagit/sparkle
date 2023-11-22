@@ -1,0 +1,128 @@
+.bm-burger-button {
+    width: 36px;
+    height: 30px;
+    left: 5px;
+    top: 10px;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow-y: visible;
+    z-index: 999;
+  }
+
+  .bm-burger-bars {
+    background: #373a47;
+  }  
+  
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: auto!important;
+    left: 8px!important;
+  }
+  
+  .bm-menu {
+    background: linear-gradient(90deg, rgb(58, 57, 57) 0%, rgb(110, 105, 105) 100%);
+    font-size: 1.10em;
+    border-bottom-right-radius: 10px;
+    margin-top: 2px;
+  }
+  
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  .bm-item-list {
+    color: rgb(255, 255, 255);;
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  .bm-item {
+    display: inline-block;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    width: 96vw!important;
+    height: 98vh!important;
+  }
+  /* styling next link component so that will be a column list of links*/
+  .bm-item-list a {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  /* (A) LIST TO MENU */
+.tree, .section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tree {
+  background: transparent;
+}
+.tree li {
+  border-bottom: 2px solid #b1adad;
+  padding: 15px 22px;
+}
+.tree li a{
+  background: transparent;
+}
+
+.tree li:last-child {
+  border: 0;
+}
+
+/* (B) SUB-SECTIONS */
+/* (B1) TOGGLE SHOW/HIDE */
+.section ul { display: none; }
+.section input:checked ~ ul { display: block; }
+
+/* (B2) HIDE CHECKBOX */
+.section input[type=checkbox] { display: none; }
+
+/* (B3) ADD EXPAND/COLLAPSE ICON  */
+.section { 
+  position: relative; 
+  padding-left: 22px !important;
+}
+.section label:after {
+  content: "\002B";
+  position: absolute;
+  top: 0; left: 0;
+  text-align: center;
+  font-size: 32px;
+  color: #23c37a;
+  transition: all 0.5s;
+  padding-left: -10px !important;
+  padding-top: 7px !important;
+}
+.section input:checked ~ label:after { 
+  color: rgb(255, 14, 14);
+  
+  transform: rotate(-45deg);
+}
+
+/* (B4) SUB-SECTION ITEMS */
+.section ul { margin-top: 0px; }
+.section ul li { padding: 10px; }
+.section ul li a { 
+  color: rgb(255, 255, 255); 
+  padding-left: 10px;
+}

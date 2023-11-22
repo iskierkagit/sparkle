@@ -1,0 +1,24 @@
+
+.hamburger {
+    position: absolute;
+    padding: 0.5rem;
+  }
+  
+  .hamburgerPosition {
+    left: 0px;
+    top: 3rem;
+  }
+  
+  .headerSubNav {
+    display: absolute;
+    @media (min-width: 960px) {
+      display: none;
+    }
+  }
+  
+  .iconStyle {
+    width: 2rem;
+    height: 2rem;
+    color: rgb(255, 255, 255);
+  }
+

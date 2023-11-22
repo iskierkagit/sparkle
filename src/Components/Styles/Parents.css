@@ -1,0 +1,79 @@
+.parents-flex-container {
+    display: flex;
+    height: calc(100%-6rem);
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    background: linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(162, 162, 162) 100%);
+    border-radius: 7px;
+    box-shadow: 6px 6px 10px rgb(116, 117, 117);
+    margin-bottom: 30px;
+}
+
+.parents-float-container{
+    height: calc(100%-6rem);
+    width: 90%;
+    background: linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(162, 162, 162) 100%);
+    border-radius: 7px;
+    box-shadow: 6px 6px 10px rgb(116, 117, 117);
+    display: inline-block;
+}
+
+.parents-float-text {
+    border-radius: 7px;
+    /*background: rgb(234, 255, 0);*/
+    margin: 5px;
+}
+
+.parents-float-text h3{
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+.parents-float-container .image{
+    float: left;
+    width: 30vw;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.parents-flex-child {
+    flex: 2;
+    border-radius: 7px;
+    /*background: aqua;*/
+    margin: 5px;
+}
+
+.parents-flex-child-image {
+    flex: 1;
+    border-radius: 7px;
+    /*background: rgb(21, 224, 48);*/
+    margin: 5px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .parents-flex-container {
+        display: grid;
+        height: auto;
+    }
+
+    .parents-float-container .image{
+        display: none;
+    }
+
+    .image-container {
+        display: none;
+    }
+  }
