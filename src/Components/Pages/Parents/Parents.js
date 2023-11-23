@@ -18,7 +18,7 @@ const Parents = () => {
       <ProLife />
       <Rehabilitation />
       <Declarations />
-      <video src={VideoBg} autoPlay loop muted/>
+      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   );
 }

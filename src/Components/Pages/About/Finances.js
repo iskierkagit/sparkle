@@ -46,7 +46,7 @@ const Finances = () => {
           );
         })}
       </VerticalTimeline>
-      <video src={VideoBg} autoPlay loop muted/>
+      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   );
 }

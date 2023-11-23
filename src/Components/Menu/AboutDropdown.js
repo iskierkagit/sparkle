@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 function AboutDropdown() {
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
 
   return (

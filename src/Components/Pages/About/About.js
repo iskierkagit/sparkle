@@ -4,7 +4,7 @@ import VideoBg from '../../../Assets/video/sand_2.mp4'
 
 const About = () => {
   return <div>
-      <video src={VideoBg} autoPlay loop muted/>
+      <video src={VideoBg} autoPlay loop muted playsInline/>
   </div>
 }
 export default About;

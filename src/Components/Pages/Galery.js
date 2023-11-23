@@ -22,7 +22,7 @@ const Gallery = () => {
           <img width="100%" src={require("../../Assets/img/5.jpg")} />
         </Carousel.Item>
       </Carousel>
-      <video src={VideoBg} autoPlay loop muted/>
+      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   )
 }

@@ -63,7 +63,7 @@ const Contact = () => {
           title="Humanity First Indonesia"
         />
       </div>
-      <video src={VideoBg} autoPlay loop muted/>
+      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   )
 }

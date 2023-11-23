@@ -5,7 +5,7 @@ const Sparkle = () => {
   return (
     <div>
       <h1 className='sparkle'>Iskierka</h1>
-      <video src={VideoBg} autoPlay loop muted/>
+      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   );
 }
