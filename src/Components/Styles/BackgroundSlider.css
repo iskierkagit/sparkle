@@ -47,7 +47,7 @@
 
   /* Background slider */
   .description{
-    width: auto;
+    width: 480px;
     position: absolute;
     z-index: 999;
     color: aliceblue;
@@ -57,6 +57,10 @@
   }
 
   @media screen and (max-width: 480px) {
+    .description{
+        width: auto;
+      }
+
     .carousel{
         justify-content: center;
         width: auto;

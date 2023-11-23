@@ -42,10 +42,7 @@ function Navbar() {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link
-              to='/about'
-              className='nav-links'
-              onClick={closeMobileMenu}>
+            <Link className='nav-links'>
               O nas <i className='fas fa-caret-down' />
             </Link>
             {aboutDropdown && <AboutDropdown />}

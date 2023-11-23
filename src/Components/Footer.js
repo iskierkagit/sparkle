@@ -19,7 +19,9 @@ const Footer = () => {
 
 
   const { pathname } = useLocation();
-  if (pathname === "/" || pathname === "/sparkle") return null;
+  if (pathname === "/") return null;
+  if (pathname === "/sparkle") return null;
+  if (pathname === "/sparkle/") return null;
   
   return (
     <div className={pathname === "/history" || pathname === "/parents" || pathname === "/finances" || 

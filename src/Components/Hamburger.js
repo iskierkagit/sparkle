@@ -14,9 +14,9 @@ const Hamburger = () => (
         <ul class="tree">
           <li class="section">
           <input type="checkbox" id="aboutUs" />
-          <label for="aboutUs">Poznaj nas</label>
+          <label for="aboutUs">O nas</label>
             <ul>
-              <li><Link to="/about">O nas</Link></li>
+              <li><Link to="/about">Iskierka</Link></li>
               <li><Link to="/history">Historia</Link></li>
               <li><Link to="/management">Władze, statut</Link></li>
               <li><Link to="/finances">Sprawozdania finansowe</Link></li>

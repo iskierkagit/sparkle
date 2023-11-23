@@ -1,7 +1,7 @@
 export const AboutItems = [
     {
       title: 'Iskierka',
-      path: '/sparkle',
+      path: '/about',
       cName: 'dropdown-link'
     },
     {
