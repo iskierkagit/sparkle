@@ -19,7 +19,7 @@ const CookieConsent = () => {
       <p>
         Używamy plików cookie, aby poprawić komfort użytkowania. Korzystając z naszej strony internetowej,
          wyrażasz zgodę na używanie przez nas plików cookie.{" "}
-        <a href={"/privacy-policy"}>Przeczytaj więcej.</a>
+        {/*<a href={"/privacy-policy"}>Przeczytaj więcej.</a>*/}
       </p>
       <button onClick={giveCookieConsent}>
         Akceptuję

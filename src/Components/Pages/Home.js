@@ -1,8 +1,10 @@
 import React from "react";
 import BackgroundSlider from "../BackgroundSlider.js"
 
-export default function Home() {
+const Home = () =>{
   return (
-      <BackgroundSlider />
+    <BackgroundSlider />
   );
 }
+
+export default Home

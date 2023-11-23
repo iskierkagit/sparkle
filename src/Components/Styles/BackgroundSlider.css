@@ -47,18 +47,19 @@
 
   /* Background slider */
   .description{
-    width: 600px;
+    width: auto;
     position: absolute;
     z-index: 999;
     color: aliceblue;
     bottom: 5%;
-    left: 3%;
+    left: 6%;
+    justify-content: center;
   }
 
   @media screen and (max-width: 480px) {
     .carousel{
-        justify-content: left;
-        width: 100vw;
+        justify-content: center;
+        width: auto;
     }
 
     .carousel span{
@@ -81,9 +82,9 @@
     width: auto;
     left: 0;}
     
-  };*/
+  };
   
   @media (max-width: 370px) {
     .description{
     display: none;}
-  };
+  };*/

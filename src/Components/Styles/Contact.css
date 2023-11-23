@@ -9,6 +9,7 @@
 .flex-child {
     flex: 1;
     border-radius: 7px;
+    height: auto;
 }  
 
 .flex-child:first-child {
@@ -30,7 +31,6 @@
         margin-right: 0px;
         min-width: 230px;
         background: linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(162, 162, 162) 100%);
-        
     }
 
     .flex-child .map-frame {
@@ -84,8 +84,3 @@ a.gmail {
 a.location{
     color: rgb(230, 72, 44);
 }
-
-
-
-
-
