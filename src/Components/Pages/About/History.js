@@ -17,12 +17,12 @@ const History = () => {
       <VerticalTimeline>
         {timeline.map((t, i) => {
           const contentStyle =
-            i === 0
-              ? { background: 'rgb(33, 150, 243)', color: '#fff' }
+            i % 2 === 0
+              ? { background: 'rgb(255, 225, 125)'}
               : undefined;
           const arrowStyle =
-            i === 0
-              ? { borderRight: '7px solid  rgb(33, 150, 243)' }
+            i % 2 === 0
+              ? { borderRight: '7px solid  rgb(255, 225, 125)' }
               : undefined;
 
           return (

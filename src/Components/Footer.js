@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { BsYoutube } from "react-icons/bs";
-import { FaFacebookF, FaMapMarkerAlt } from "react-icons/fa";
+import { FaFacebookF, FaMapMarkerAlt, FaInstagram } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import "./Styles/Footer.css";
 
@@ -24,7 +24,7 @@ const Footer = () => {
   if (pathname === "/sparkle/") return null;
   
   return (
-    <div className={pathname === "/history" || pathname === "/parents" || pathname === "/finances" || 
+    <div className={pathname === "/history" || pathname === "/parents" || pathname === "/finances" || pathname === "/management" ||
           (pathname === "/management" && width < breakpoint) ? "footerStatic" : "footer" }>
       <div className="f-content">
       <div className="f-icons">
@@ -42,6 +42,10 @@ const Footer = () => {
           <a href='https://maps.app.goo.gl/okmaYWXnW6atZHCV6' target="_blank" 
              onclick="window.open(this.href, 'new', 'popup'); return false;">
             <FaMapMarkerAlt color="white" size={"1.5rem"} />
+          </a>
+          <a href='https://www.instagram.com/iskierka_szczecin/' target="_blank" 
+             onclick="window.open(this.href, 'new', 'popup'); return false;">
+            <FaInstagram color="white" size={"1.5rem"} />
           </a>
         </div>
       </div>

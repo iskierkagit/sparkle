@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
   faFacebook,
+  faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
 import{
@@ -47,6 +48,10 @@ const Contact = () => {
           <a href='https://maps.app.goo.gl/okmaYWXnW6atZHCV6' className="location social"
             target="_blank" onclick="window.open(this.href, 'new', 'popup'); return false;">
             <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" />
+          </a>
+          <a href="https://www.instagram.com/iskierka_szczecin/" className="instagram social"
+            target="_blank" onclick="window.open(this.href, 'new', 'popup'); return false;">
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
         </div>
       </div>

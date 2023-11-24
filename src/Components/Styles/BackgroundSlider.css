@@ -59,6 +59,7 @@
   @media screen and (max-width: 480px) {
     .description{
         width: auto;
+        bottom: 8%;
       }
 
     .carousel{
