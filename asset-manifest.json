@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/sparkle/static/css/main.21e4605d.css",
-    "main.js": "/sparkle/static/js/main.6636785b.js",
+    "main.css": "/sparkle/static/css/main.00a7a973.css",
+    "main.js": "/sparkle/static/js/main.f148e5ca.js",
     "static/js/787.1a09a372.chunk.js": "/sparkle/static/js/787.1a09a372.chunk.js",
+    "static/media/statut_2016.pdf": "/sparkle/static/media/statut_2016.e842b730c2d2ac098157.pdf",
     "static/media/2.jpg": "/sparkle/static/media/2.d92b15e55bf3bb4fb2c7.jpg",
     "static/media/5.jpg": "/sparkle/static/media/5.69a7ddd671d64c3742da.jpg",
     "static/media/3.jpg": "/sparkle/static/media/3.7f185327c6d12c1b2271.jpg",
     "static/media/4.jpg": "/sparkle/static/media/4.51bf4e75f90b7259a624.jpg",
     "static/media/1.jpg": "/sparkle/static/media/1.1386db6c05556e49259b.jpg",
     "index.html": "/sparkle/index.html",
-    "main.21e4605d.css.map": "/sparkle/static/css/main.21e4605d.css.map",
-    "main.6636785b.js.map": "/sparkle/static/js/main.6636785b.js.map",
+    "main.00a7a973.css.map": "/sparkle/static/css/main.00a7a973.css.map",
+    "main.f148e5ca.js.map": "/sparkle/static/js/main.f148e5ca.js.map",
     "787.1a09a372.chunk.js.map": "/sparkle/static/js/787.1a09a372.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21e4605d.css",
-    "static/js/main.6636785b.js"
+    "static/css/main.00a7a973.css",
+    "static/js/main.f148e5ca.js"
   ]
 }
