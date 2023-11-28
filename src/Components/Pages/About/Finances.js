@@ -7,7 +7,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import finances from '../../../Assets/others/financesFiles';
 import '../../Styles/HistoryTimeline.css';
 import '../../Styles/Finances.css';
-import VideoBg from '../../../Assets/video/sand_2.mp4'
 import { Link } from 'react-router-dom';
 
 const Finances = () => {
@@ -46,7 +45,6 @@ const Finances = () => {
           );
         })}
       </VerticalTimeline>
-      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   );
 }

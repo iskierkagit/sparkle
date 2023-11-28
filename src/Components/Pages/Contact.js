@@ -12,7 +12,6 @@ import{
   faEnvelope,
   faMapMarkerAlt
 } from "@fortawesome/free-solid-svg-icons";
-import VideoBg from '../../Assets/video/sand_2.mp4'
 
 const Contact = () => {
   return (
@@ -68,7 +67,6 @@ const Contact = () => {
           title="Humanity First Indonesia"
         />
       </div>
-      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   )
 }

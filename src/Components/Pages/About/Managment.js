@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../Styles/BaseBackground.css'
 import '../../Styles/Management.css'
-import VideoBg from '../../../Assets/video/sand_2.mp4'
 import{
   faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
@@ -16,11 +15,13 @@ const Management = () => {
             <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/8021/girl-png.png" 
             height="92" width="92"/>
             <h2>Magdalena Seidler-Kumor</h2>
-            <h3>Prezes</h3>
-            <a href="mailto:kontakt@iskierka.org.pl" className="gmail social"
-              target="_blank" rel="noreferrer noopener">
-              <FontAwesomeIcon icon={faEnvelope} size="2x"/>
-            </a>
+            <div className='management-signature-message'>
+              <h3>Prezes</h3>
+              <a href="mailto:kontakt@iskierka.org.pl" className="gmail social"
+                target="_blank" rel="noreferrer noopener">
+                <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -29,11 +30,13 @@ const Management = () => {
             <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/8021/girl-png.png" 
             height="92" width="92"/>
             <h2>Małgorzata Świerzko</h2>
-            <h3>Wiceprezes</h3>
-            <a href="mailto:kontakt@iskierka.org.pl" className="gmail social"
-              target="_blank" rel="noreferrer noopener">
-              <FontAwesomeIcon icon={faEnvelope} size="2x"/>
-            </a>
+            <div className='management-signature-message'>
+              <h3>Wiceprezes</h3>
+              <a href="mailto:kontakt@iskierka.org.pl" className="gmail social"
+                target="_blank" rel="noreferrer noopener">
+                <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -118,7 +121,6 @@ const Management = () => {
         </div>
 
       </div>
-      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   );
 }

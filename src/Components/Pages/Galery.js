@@ -1,6 +1,5 @@
 import React from 'react'
 import Carousel from 'better-react-carousel'
-import VideoBg from '../../Assets/video/sand_2.mp4'
 
 const Gallery = () => {
   return (
@@ -22,7 +21,6 @@ const Gallery = () => {
           <img width="100%" src={require("../../Assets/img/5.jpg")} />
         </Carousel.Item>
       </Carousel>
-      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   )
 }

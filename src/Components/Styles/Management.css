@@ -18,8 +18,18 @@
     margin-right: 0px;
 }
 
-.management-content{
-    margin: 10px;
+.management-content img{
+    margin-top: 10px;
+    height: auto;
+}
+
+.management-content a{
+    margin-bottom: 10px;
+}
+
+.management-content h2{
+    margin: 5px;
+    height: auto;
 }
 
 .management-title{

@@ -7,10 +7,15 @@ import "./Styles/Footer.css";
 
 const Footer = () => {
   const [width, setWidth] = React.useState(window.innerWidth);
-  const breakpoint = 960;
+  const [height, setHeight] = React.useState(window.innerHeight);
+  const breakpointWidth = 960;
+  const breakpointHeight = 770;
 
   React.useEffect(() => {
-    const handleResizeWindow = () => setWidth(window.innerWidth);
+    const handleResizeWindow = () => {
+      setWidth(window.innerWidth)
+      setHeight(window.innerHeight)
+    };
      window.addEventListener("resize", handleResizeWindow);
      return () => {
        window.removeEventListener("resize", handleResizeWindow);
@@ -24,8 +29,8 @@ const Footer = () => {
   if (pathname === "/sparkle/") return null;
   
   return (
-    <div className={pathname === "/history" || pathname === "/parents" || pathname === "/finances" || pathname === "/management" ||
-          (pathname === "/management" && width < breakpoint) ? "footerStatic" : "footer" }>
+    <div className={pathname === "/history" || pathname === "/parents" || pathname === "/finances" ||
+          (pathname === "/management" && height < breakpointHeight) ? "footerStatic" : "footer" }>
       <div className="f-content">
       <div className="f-icons">
           <a href="https://youtube.pl/IskierkaSzczecin" target="_blank" 

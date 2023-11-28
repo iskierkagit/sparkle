@@ -6,7 +6,6 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 import timeline from '../../../Assets/others/timelineData';
 import '../../Styles/HistoryTimeline.css'
-import VideoBg from '../../../Assets/video/sand_2.mp4'
 
 const History = () => {
   return (
@@ -49,7 +48,6 @@ const History = () => {
           );
         })}
       </VerticalTimeline>
-      <video src={VideoBg} autoPlay loop muted playsInline/>
     </div>
   );
 }
