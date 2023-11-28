@@ -10,12 +10,12 @@ export const AboutItems = [
       cName: 'dropdown-link'
     },
     {
-      title: 'Władze, statut',
+      title: 'Władze',
       path: '/management',
       cName: 'dropdown-link'
     },
     {
-      title: 'Sprawozdania finansowe',
+      title: 'Sprawozdania finansowe i statut',
       path: '/finances',
       cName: 'dropdown-link'
     }

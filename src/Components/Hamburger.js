@@ -18,8 +18,8 @@ const Hamburger = () => (
             <ul>
               <li><Link to="/about">Iskierka</Link></li>
               <li><Link to="/history">Historia</Link></li>
-              <li><Link to="/management">Władze, statut</Link></li>
-              <li><Link to="/finances">Sprawozdania finansowe</Link></li>
+              <li><Link to="/management">Władze</Link></li>
+              <li><Link to="/finances">Sprawozdania finansowe i statut</Link></li>
             </ul>
           </li>
           <li><Link to="/parents">Dla rodziców</Link></li>

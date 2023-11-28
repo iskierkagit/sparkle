@@ -14,3 +14,7 @@ body {
         width: auto;
     }
 }
+
+vertical-timeline-element-content-arrow{
+    background-color: #ffff;
+}

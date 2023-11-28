@@ -15,20 +15,15 @@ const History = () => {
       </h2>
       <VerticalTimeline>
         {timeline.map((t, i) => {
-          const contentStyle =
-            i % 2 === 0
-              ? { background: 'rgb(255, 225, 125)'}
-              : undefined;
           const arrowStyle =
             i % 2 === 0
-              ? { borderRight: '7px solid  rgb(255, 225, 125)' }
-              : undefined;
+            ? { borderRight: '7px solid vertical-timeline-element-content-arrow' }
+            : undefined;
 
           return (
             <VerticalTimelineElement
               key={i}
               className="vertical-timeline-element--work"
-              contentStyle={contentStyle}
               contentArrowStyle={arrowStyle}
               date={t.date}
               {...t.icon}
