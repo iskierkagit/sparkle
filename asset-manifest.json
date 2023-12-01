@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sparkle/static/css/main.9406a898.css",
-    "main.js": "/sparkle/static/js/main.c9aae006.js",
+    "main.css": "/sparkle/static/css/main.34e44b80.css",
+    "main.js": "/sparkle/static/js/main.75c88ea2.js",
     "static/js/787.1a09a372.chunk.js": "/sparkle/static/js/787.1a09a372.chunk.js",
     "static/media/statut_2016.pdf": "/sparkle/static/media/statut_2016.e842b730c2d2ac098157.pdf",
     "static/media/2.jpg": "/sparkle/static/media/2.d92b15e55bf3bb4fb2c7.jpg",
@@ -10,12 +10,12 @@
     "static/media/4.jpg": "/sparkle/static/media/4.51bf4e75f90b7259a624.jpg",
     "static/media/1.jpg": "/sparkle/static/media/1.1386db6c05556e49259b.jpg",
     "index.html": "/sparkle/index.html",
-    "main.9406a898.css.map": "/sparkle/static/css/main.9406a898.css.map",
-    "main.c9aae006.js.map": "/sparkle/static/js/main.c9aae006.js.map",
+    "main.34e44b80.css.map": "/sparkle/static/css/main.34e44b80.css.map",
+    "main.75c88ea2.js.map": "/sparkle/static/js/main.75c88ea2.js.map",
     "787.1a09a372.chunk.js.map": "/sparkle/static/js/787.1a09a372.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9406a898.css",
-    "static/js/main.c9aae006.js"
+    "static/css/main.34e44b80.css",
+    "static/js/main.75c88ea2.js"
   ]
 }
