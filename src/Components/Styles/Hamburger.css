@@ -60,7 +60,7 @@
     width: 96vw!important;
     height: 98vh!important;
   }
-  /* styling next link component so that will be a column list of links*/
+
   .bm-item-list a {
     display: flex;
     flex-direction: column;
@@ -68,7 +68,6 @@
     text-decoration: none;
   }
 
-  /* (A) LIST TO MENU */
 .tree, .section ul {
   list-style: none;
   padding: 0;
@@ -89,15 +88,11 @@
   border: 0;
 }
 
-/* (B) SUB-SECTIONS */
-/* (B1) TOGGLE SHOW/HIDE */
 .section ul { display: none; }
 .section input:checked ~ ul { display: block; }
 
-/* (B2) HIDE CHECKBOX */
 .section input[type=checkbox] { display: none; }
 
-/* (B3) ADD EXPAND/COLLAPSE ICON  */
 .section { 
   position: relative; 
   padding-left: 22px !important;
@@ -119,7 +114,6 @@
   transform: rotate(-45deg);
 }
 
-/* (B4) SUB-SECTION ITEMS */
 .section ul { margin-top: 0px; }
 .section ul li { padding: 10px; }
 .section ul li a { 

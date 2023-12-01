@@ -11,15 +11,42 @@
   }
   
   .navbar-logo {
-    color: #fff;
     justify-self: start;
     margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
     font-size: 2rem;
     position: absolute;
     top: 5;
     left: 30px;
+  }
+
+  .navbar .navbar-logo .logo {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navbar .navbar-logo a {
+    background:
+      linear-gradient(
+        to right,
+        rgb(199, 199, 199),
+        rgb(132, 132, 132)
+      ),
+      linear-gradient(
+        to right,
+        rgb(67, 67, 67),
+        rgb(157, 157, 157),
+        rgb(255, 255, 255)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+
+  .navbar .navbar-logo a:hover {
+    background-size: 0 3px, 100% 3px;
+    /*text-shadow: 6px 6px 6px rgb(231, 231, 168);*/
   }
   
   .fa-firstdraft {

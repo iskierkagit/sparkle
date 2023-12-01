@@ -4,7 +4,7 @@
     width: 90%;
     margin-left: 5%;
     margin-top: 30px;
-    background: linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(162, 162, 162) 100%);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(226, 226, 226) 100%);
     border-radius: 7px;
     box-shadow: 6px 6px 10px rgb(116, 117, 117);
     margin-bottom: 30px;
@@ -13,7 +13,7 @@
 .parents-float-container{
     height: calc(100%-6rem);
     width: 90%;
-    background: linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(162, 162, 162) 100%);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(226, 226, 226) 100%);
     border-radius: 7px;
     box-shadow: 6px 6px 10px rgb(116, 117, 117);
     display: inline-block;

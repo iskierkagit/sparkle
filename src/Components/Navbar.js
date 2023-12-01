@@ -29,39 +29,30 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          Iskierka
-          <i class='fab fa-firstdraft' />
-        </Link>
-        <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+      <nav className={'navbar'}>
+        <div className='navbar-logo' >
+          <Link to='/' className='logo' onClick={closeMobileMenu}>
+              Iskierka
+          </Link>
         </div>
+        
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
             <Link className='nav-links'>
-              O nas <i className='fas fa-caret-down' />
+              O nas
             </Link>
             {aboutDropdown && <AboutDropdown />}
           </li>
           <li className='nav-item'>
-            <Link
-              to='/parents'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            <Link to='/parents' className='nav-links' onClick={closeMobileMenu}>
               Dla rodziców
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
-              to='/actions'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            <Link to='/actions' className='nav-links' onClick={closeMobileMenu}>
               Działania
             </Link>
           </li>
@@ -75,11 +66,7 @@ function Navbar() {
             </Link>
           </li>*/}
           <li className='nav-item'>
-            <Link
-              to='/contact'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
               Kontakt
             </Link>
           </li>

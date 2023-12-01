@@ -8,12 +8,12 @@ const BackgroundSlider = () => {
     const[currentState, setCurrentState]= useState(0);
     const [currentImage, setCurrentImage] = useState(`url(${imageSlide[currentState].url})`);
     
-    const fetchImage = (currentState1) => {
+    const fetchImage = (currentStateParameter) => {
         const loadingImage = new Image();
-        loadingImage.src = imageSlide[currentState1].url;
+        loadingImage.src = imageSlide[currentStateParameter].url;
         loadingImage.onload = () => {
-            setCurrentState(currentState1);
-            setCurrentImage(`url(${imageSlide[currentState1].url})`);
+            setCurrentState(currentStateParameter);
+            setCurrentImage(`url(${imageSlide[currentStateParameter].url})`);
             setLoading(false);
         };
       };
@@ -45,6 +45,8 @@ const BackgroundSlider = () => {
         fetchImage(currentState);
     }
 
+    const currentValue = imageSlide[currentState].currentValue;
+
     return(
         <div className='countiner'>
             <div style={bgImageStyle}>
@@ -54,7 +56,7 @@ const BackgroundSlider = () => {
                     <div className='carousel'>
                     {
                         imageSlide.map((imageSlide ,currentState)=>(
-                            <span key={currentState} onClick={()=> goToNext(currentState)}></span>
+                            <span className={`${currentState ===  currentValue? 'currentSpan' : null}`} key={currentState} onClick={()=> goToNext(currentState)}></span>
                         ))
                     }
                     </div>

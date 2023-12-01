@@ -10,7 +10,8 @@
 .management-flex-child {
     flex: 1;
     border-radius: 7px;
-    background: linear-gradient(90deg, rgb(194, 194, 194) 0%, rgb(133, 132, 132) 100%);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(226, 226, 226) 100%);
+    box-shadow: 6px 6px 10px rgb(116, 117, 117);
     margin-right: 30px;
 }  
 

@@ -28,11 +28,16 @@
 .carousel span{
     width: 45%;
     height: 12px;
-    background-color: rgb(199, 76, 76);
     margin-left: 10px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 4px 3px 3px rgb(114, 170, 219);
+    box-shadow: 4px 3px 3px rgb(109, 110, 111);
+    background-color: rgb(179, 179, 179);
+
+}
+
+.carousel .currentSpan{
+    background-color: rgb(212, 77, 77)!important;
 }
 
 .transparent-background{
@@ -59,7 +64,7 @@
   @media screen and (max-width: 480px) {
     .description{
         width: auto;
-        bottom: 8%;
+        bottom: 9%;
       }
 
     .carousel{
